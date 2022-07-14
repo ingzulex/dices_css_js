@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 2rem;
+    background-color: lime;
+    color: orange;
+    border-radius: 15px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.kockica-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 25px;
+    position: relative;
+    background-color: white;
+}
+
+.tacka {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.t-1 {
+    top: 30px;
+    left: 30px;
+}
+
+.t-2 {
+    top: 30px;
+    right: 30px;
+}
+
+.t-3 {
+    top: 150px;
+    left: 30px;
+    transform: translateY(-50%);
+}
+
+.t-4 {
+    top: 150px;
+    right: 30px;
+    transform: translateY(-50%);
+}
+
+.t-5 {
+    top: 127px;
+    right: 150px;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+}
+
+.t-6 {
+    bottom: 30px;
+    left: 30px;
+}
+
+.t-7 {
+    bottom: 30px;
+    right: 30px;
+}
